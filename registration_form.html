@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>User Registration form</title>
+		 <link rel"stylesheet" type="text/css" href="style1.css">
+	</head>
+	<body>
+	
+		<div>
+			<form action= "registration.php" method= "post">
+							<h1>Registration</h1>
+								<p>Fill up the form with correct values.</p>
+									<hr class="mb-3">
+									<label for="firstname"><b>First Name</b></label>
+									<input type="text" name="firstname" required><br><br>
+							
+									<label for="lastname"><b>Last Name</b></label>
+									<input type="text" name="lastname" required><br><br>
+									
+									<label for="male">Male</label>
+									<input type="radio" id="male" name="gender" value="male">
+									<label for="male">Female</label>
+									<input type="radio" id="female" name="gender" value="female">
+									<label for="male">Others</label>
+									<input type="radio" id="others" name="gender" value="others"><br><br>
+							
+									<label for="email"><b>Email Address</b></label>
+									<input type="email" name="email" required><br><br>
+							
+									<label for="phonenumber"><b>Phone Number</b></label>
+									<input type="text" name="phonenumber" required><br><br>
+
+									<label for="password"><b>Password</b></label>
+									<input type="password" name="password" required><br>
+							
+										<hr class="mb-3">
+									<input type="submit" name="create" value="Sign Up"><br>
+								
+						
+			</form>
+		</div>
+	</body>
+</html>
